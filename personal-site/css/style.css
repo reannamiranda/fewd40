@@ -1,0 +1,91 @@
+  header {
+      text-align: center;
+      background: url('file:///Users/reedanna/Desktop/fewd40/personal-site/images/san-francisco-background.jpg');
+      background-size: cover;
+      color: rgb(98,72,112);
+      font-family: 'Ropa Sans', sans-serif;
+      background-position: 0px -200px;
+    }
+    img {
+      margin: 20px 0px 0px 0px;
+      border: 5px solid white;
+      border-radius: 10px;
+    }
+    .social-img {
+      margin: 5px 0px 0px 0px;
+      border: 1px solid white;
+      border-radius: 10px;
+    }
+    .portfolio-img {
+      margin: 20px 0px 0px 40px;
+      border: 1px solid white;
+      border-radius: 5px;
+    }
+    h1 {
+      font-size: 50px;
+      font-family: 'Ropa Sans', sans-serif;
+      color: white;
+      text-decoration: 
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+      text-align: center;
+    }
+    .social-ul {
+      padding: 0px;
+      background: white;
+      text-align: center;
+    }
+    .portfolio-ul {
+      padding: 0px;
+      text-align: left;
+      background: white;
+      list-style-type: square;
+    }
+    .menu-list {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      font-family: 'Ropa Sans', sans-serif;
+    }
+    .exp {
+      display: block;
+      font-family: 'Ropa Sans', sans-serif;
+      list-style-type: square;
+    }
+    .social-list {
+      display: inline;
+      padding: 0px 5px 0px 5px;
+      font-family: 'Ropa Sans', sans-serif;
+    }
+    .portfolio-list {
+      display: block;
+      padding: 10px 10px 10px 25px;
+      font-family: 'Ropa Sans', sans-serif;
+    }
+    a {
+      color: white;
+      vertical-align: middle;
+    }
+    h2 {
+      font-size: 30px;
+      padding: 0px 10px 0px 10px;
+      font-family: 'Ropa Sans', sans-serif;
+    }
+    p {
+      font-size: 18px;
+      font-family: 'Ropa Sans', sans-serif;
+      padding: 0px 10px 0px 10px;
+      color: black
+    }
+    h3 {
+      font-size: 20px;
+      padding: 0px 10px 0px 10px;
+      font-family: 'Ropa Sans', sans-serif;
+      text-decoration: underline;
+    }
+    hr {
+      width: 30%;
+      size: 6;
+      color: rgb(98,72,112);
+    }
