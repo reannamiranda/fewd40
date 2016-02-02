@@ -46,32 +46,76 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: 'Open Sans';
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans';
 }
 h1 {
   font-size: 24px;
-  font-family: 'Open Sans';
-  font-weight: extra bold;
+  font-weight: 800;
   color: white;
-  padding: 10px 50px 50px 50px;
+  padding: 30px 50px 80px 50px;
 }
 h2 {
   font-size: 24px;
-  font-family: 'Open Sans';
-  font-weight: semibold;
+  font-weight: 600;
   text-align: center;
   color: white;
+  padding-bottom: 60px;
 }
 .button-1 {
   font-size: 14px;
-  font-weight: 'Open Sans', extrabold;
+  font-weight: 800;
+  font-family: 'Open Sans';
   border-radius: 5px;
-  vertical-align: center;
   background-color: yellow;
-
+}
+.centerbutton {
+  text-align: center;
+  width: 12%;
+  margin: auto;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+p {
+  font-size: 13px;
+  font-weight: 300;
+}
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.name-company {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+}
+.button-2 {
+  font-size: 12px;
+  font-weight: 800;
+  font-family: 'Open Sans';
+  border-radius: 5px;
+  background-color: #033048;
+  color: white;
+  height: auto;
+}
+h4 {
+  font-size: 24px;
+  color: #f9e42e;
+  font-weight: 800;
+  padding: 30px;
+}
+img {
+  padding: 10px;
+}
+.footer-p {
+  font-size: 9px;
+  font-weight: 600;
+  padding: 20px;
 }
 
 /******************************************
@@ -79,19 +123,36 @@ h2 {
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
-
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
 }
-
+section {
+  background-color: #F2F6F5;
+  padding: 50px
+}
+blockquote {
+  background: url(../images/testimonial_bg.jpg);
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+}
+figure {
+  background-color: #f9e42e;
+  padding: 20px;
+}
 footer {
+  background-color: #121212;
+  color: white;
+  text-align: center;
 
 }
 
