@@ -31,3 +31,18 @@ Business tips"
 About text - 22px light
 Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.
 Learn More - Semibold, 22
+
+
+
+<section class="signup-section">
+				<div class="centerbutton">
+					<button class="button-signup">Sign Up Now!</button>
+				</div>
+			</section>
+		
+			<footer>
+				<h5>Relaxr</h5>
+				<a href="#"><img src="images/twitter.png" height="38px" alt="Twitter"></a>
+				<a href="#"><img src="images/facebook.png" height="38px" alt="Facebook"></a>
+				<p class="footer-p">Copyright 2015. Relaxr.</p>
+			</footer>
