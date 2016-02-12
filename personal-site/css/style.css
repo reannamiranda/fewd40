@@ -1,6 +1,6 @@
   header {
       text-align: center;
-      background: url('file:///Users/reedanna/Desktop/fewd40/personal-site/images/san-francisco-background.jpg');
+      background: url(../images/san-francisco-background.jpg);
       background-size: cover;
       color: rgb(98,72,112);
       font-family: 'Ropa Sans', sans-serif;
