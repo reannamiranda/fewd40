@@ -67,6 +67,9 @@
       color: white;
       vertical-align: middle;
     }
+    .a-homework {
+      color: none;
+    }
     h2 {
       font-size: 30px;
       padding: 0px 10px 0px 10px;
