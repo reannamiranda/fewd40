@@ -7,7 +7,7 @@ $(document).ready(function(){
 })
 
 $('.readmore').click(function(){
-	$('#show-this-on-click').slideToggle();
+	$('#show-this-on-click').slideDown();
 })
 
 $('.readmore').click(function(){
@@ -23,7 +23,7 @@ $('.readless').click(function(){
 })
 
 $('.readless').click(function(){
-	$('#show-this-on-click').slideToggle();
+	$('#show-this-on-click').slideUp();
 })
 
 $('.readless').click(function(){
