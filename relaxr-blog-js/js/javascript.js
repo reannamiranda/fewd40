@@ -37,3 +37,9 @@ $('.learnmore').click(function(){
 $('.learnmore').click(function(){
 	$('.learnmore').hide();
 })
+
+$('.nav').hover(function(){
+    $(this).css('color','white');
+    }, function(){
+    $(this).css('color','#f9e42e');
+})

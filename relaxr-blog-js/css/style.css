@@ -145,10 +145,13 @@ h2 a {
 .readmore, .readless {
   text-align: right;
   margin-top: 30px;
+  font-weight: 600;
+  color: #043049 !important;
+  cursor: pointer;
 }
 .readmore a, .readless a {
   color: #043049;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .button {
