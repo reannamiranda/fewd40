@@ -13,7 +13,7 @@ function showCity () {
     if(userEntry == 'New York' || userEntry == 'New York City' || userEntry == 'NYC'){
     $('body').css('background-image','url("images/nyc.jpg")');
     $('#cityname').html(userEntry);
-	  }
+    }
 
     else if(userEntry == 'San Francisco' || userEntry == 'Bay Area' || userEntry == 'SF'){
     $('body').css('background-image','url("images/sf.jpg")');
