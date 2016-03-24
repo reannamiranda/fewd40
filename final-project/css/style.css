@@ -1,0 +1,413 @@
+/* Header section*/
+
+header {
+	background-image: url(../images/the-beatles.jpg);
+	height: 780px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center; 
+}
+.logo {
+	padding-top: 9em;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	font-family: georgia;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+}
+.down-arrow {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+/* BASE STYLES*/
+
+body {
+	background-color: white;
+	font-family: georgia;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* FACTS*/
+
+.beatle-facts {
+	padding: 20px 150px 20px 150px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 200px;
+}
+
+/* FOUR BEATLES SECTION*/
+
+.four-beatles {
+	width: 100%;
+	height: 530px;
+	padding-top: .5em;
+}
+.hideme {
+    opacity: 0;
+}
+.paul{
+	background-image: url(../images/paul-mccartney.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	width: 24%;
+	margin: 0 auto;
+}
+.john {
+	background-image: url(../images/john-lennon.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	width: 24%;
+	margin: 0 auto;
+}
+.ringo{
+	background-image: url(../images/ringo-starr.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	width: 24%;
+	margin: 0 auto;
+}
+.george {
+	background-image: url(../images/george-harrison.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	width: 24%;
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+	display: inline-block;
+}
+.beatle-name-center {
+	font-size: 2em;
+	margin-top: 400px;
+	display: inline-block;
+	border-bottom: #fff 1px solid;
+	border-top: #fff 1px solid;
+	font-family: georgia;
+	line-height: 1em;
+	color: #fff;
+	text-align: center;
+}
+.tint {
+    position: relative;
+    margin-right: 9.5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+    -moz-box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+    box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+.tint:hover:before {
+	background: none;
+}
+.tint:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,0,0, 0.5);
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.t2:hover:after {
+    background: rgba(0,255,0, 0.5);
+}
+.t3:hover:after {
+    background: rgba(255,102,0, 0.6);
+}
+.t4:hover:after {
+    background: rgba(0,0,255, 0.5);
+}  
+
+/* BEATLES FACTS*/
+
+.fast-facts {
+	background-color: black;
+	width: 100%;
+	margin: 0 auto;
+}
+h3 {
+	font-size: 35px;
+	font-weight: 300;
+	padding: 50px;
+	color: #fff;
+}
+
+h4 {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.paul-2 {
+	width: 100%;
+}
+.image-paul {
+	float: right;
+	width: 60%;
+}
+.facts-paul {
+	float: left;
+	width: 40%;
+}
+.text-paul {
+	text-align: center;
+	padding-top: 100px;
+	padding-left: 80px;
+}
+
+.john-2 {
+	width: 100%;
+}
+.image-john {
+	float: left;
+	width: 60%;
+	padding-top: 30px;
+}
+.facts-john {
+	float: right;
+	width: 40%;
+}
+.text-john {
+	text-align: center;
+	padding-top: 100px;
+	padding-right: 80px;
+}
+
+.ringo-2 {
+	width: 100%;
+}
+.image-ringo {
+	float: right;
+	width: 60%;
+	padding-top: 30px;
+}
+.facts-ringo {
+	float: left;
+	width: 40%;
+}
+.text-ringo {
+	text-align: center;
+	padding-top: 100px;
+	padding-left: 80px;
+}
+
+.george-2 {
+	width: 100%;
+}
+.image-george {
+	float: left;
+	width: 60%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.facts-george {
+	float: right;
+	width: 40%;
+}
+.text-george {
+	text-align: center;
+	padding-top: 100px;
+	padding-right: 80px;
+}
+
+
+
+/*POLL - Which Beatle is your favorite?*/
+
+.pick-a-beatle {
+	background-color: black;
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+}
+.poll-block {
+  width: 50%;
+  margin: 0 auto;
+  padding: 4px 10px;
+  font-size: 24px;
+  padding-bottom: 50px;
+  min-height: 220px;
+}
+.poll-block form {
+  margin-top: 2px;
+}
+.poll-results-list {
+  display: none;
+}
+.poll-block form li {
+  background: none;
+  padding: 0 0 8px 0;
+}
+.poll-block form li input,
+.poll-block form li label {
+  float: left;
+}
+.poll-block form li label {
+  width: 92%;
+}
+.poll-block form li input {
+  margin-right: 7px;
+}
+form.poll-results-list {
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+form.poll-results-list li {
+  position: relative;
+}
+.percentage {
+  font-weight: bold;
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 17px;
+}
+.nul {
+  width: 0;
+}
+.out-bar {
+  background: #f8f8f8;
+  height: 10px;
+  position: relative;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+.inner-bar,
+.voted {
+  background: #2697d3;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+button {
+	padding: 10px;
+	font-size: 18px;
+	background-color: black;
+	color: white;
+}
+.btn-custom {
+	color: white;
+}
+
+
+/* Responsive Design*/
+
+@media screen and (max-width:1235px) and (min-width: 703px) {
+	.beatle-facts {
+		padding: 20px 60px 20px 60px;
+		font-size: 20px;
+	}
+	.paul {	
+		width: 20%;
+	}
+	.john {	
+		width: 20%;
+	}
+	.ringo {	
+		width: 20%;
+	}
+	.george {	
+		width: 20%;
+	}
+}
+@media screen and (max-width:703px) and (min-width: 400px) {
+	.beatle-facts {
+		padding: 20px 40px 20px 40px;
+		font-size: 18px;
+	}	
+	.hideme {
+    	opacity: 1;
+	}
+	.four-beatles {
+		height: 100%;
+	}
+	.paul {	
+		width: 50%;
+	}
+	.john {	
+		width: 50%;
+	}
+	.ringo {	
+		width: 50%;
+	}
+	.george {	
+		width: 50%;
+	}	
+}
+@media screen and (max-width: 825px) {
+	.image-paul {
+		float: center;
+		width: 100%;
+	}
+	.facts-paul {
+		float: center;
+		width: 100%;
+	}
+	.text-paul {
+		text-align: center;
+		padding: 15px 15px 30px 15px;
+	}
+	.image-john {
+		float: center;
+		width: 100%;
+	}
+	.facts-john {
+		float: center;
+		width: 100%;
+	}
+	.text-john {
+		text-align: center;
+		padding: 15px 15px 30px 15px;
+	}
+	.image-ringo {
+		float: center;
+		width: 100%;
+	}
+	.facts-ringo {
+		float: center;
+		width: 100%;
+	}
+	.text-ringo {
+		text-align: center;
+		padding: 15px 15px 30px 15px;
+	}
+	.image-george {
+		float: center;
+		width: 100%;
+	}
+	.facts-george {
+		float: center;
+		width: 100%;
+	}
+	.text-george {
+		text-align: center;
+		padding: 15px 15px 30px 15px;
+	}
+	.single-beatle {
+		width: 80%;
+	}
+}
+
+
